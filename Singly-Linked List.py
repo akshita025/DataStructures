@@ -52,8 +52,7 @@ class Linkedlist:
     def find(self,dataz):
         """
         Search for the first element with 'data' matching
-        'key'. Return the element or 'None' if not found.
-        Takes O(n) time.
+        'key'.
         """
         cur=self.head
         x=0
