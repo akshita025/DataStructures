@@ -1,2 +1,2 @@
 # DataStructures
-Repo for Data Structures practice
+Repo for Data Structures
