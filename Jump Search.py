@@ -1,6 +1,6 @@
 l=[1,4,5,7,9,10,11,14,15,120,122,145,167,189,192,199]
 import math
-x=199
+x=189
 n=len(l)
 #calculating the step count with which we have to jump in the sequence
 step= int(math.sqrt(n))
@@ -30,7 +30,7 @@ Previous (prev) is the value after difference of current step count and step cou
 """
 prev=cnt-step
 if stop==0:
-    for i in range(prev+1,cnt):
+    for i in range(prev+1,l.index(l[-1])+1):
         if l[i]==x:
             flag=1
             break
